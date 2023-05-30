@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lobster&family=Rubik+Puddles&family=Sue+Ellen+Francisco&display=swap");
+:root {
+  /*color*/
+  --red: #ff0000;
+  --red-light: #de8484;
+  --red-dark: #6d1919;
+  --renk1: hsla(208, 67%, 26%, 1);
+  --renk2: hsla(203, 70%, 14%, 1);
+  --renk3: hsla(180, 49%, 23%, 1);
+  --renk4: hsla(157, 40%, 39%, 1);
+  --renk5: hsla(134, 51%, 69%, 1);
+
+  /*Font Family*/
+  --ff-bungee: "Bungee Inline", cursive;
+  --ff-Lobster: "Lobster", cursive;
+  --ff-Rubik: "Rubik Puddles", cursive;
+  --ff-Sue: "Sue Ellen Francisco", cursive;
+
+  /*font-size*/
+  --fs-3xl: 3rem;
+  --fs-2xl: 2rem;
+  --fs-xl: 1.8rem;
+  --fs-l: 1.4rem;
+  --fs-m: 1rem;
+  --fs-s: 0.8rem;
+
+  /*pading*/
+
+  --pd-s: 1rem;
+
+  /*line-height*/
+  --line-h-xl: 2;
+  --line-h-x: 2;
+  /* shadow*/
+  --shadow-dark: 0 0 10px rgba(0, 0, 0, 0.4);
+
+  --shadow-light: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  background-color: var(--renk1);
+  color: var(--renk5);
+  font-family: var(--ff-Rubik);
+}
+h2 {
+  background-color: var(--renk2);
+  font-family: var(--fs-s);
+}
+h3 {
+  background-color: var(--renk3);
+}
+h4 {
+  background-color: var(--renk4);
+}
+h5 {
+  background-color: var(--renk5);
+}
+p {
+  padding: var(--pd-s);
+  background-color: var(--red-dark);
+  color: var(--red-lightS);
+  font-family: var(--ff-bungee);
+  font-size: var(--fs-l);
+}
+.dark {
+  width: 50%;
+  margin: auto;
+  padding: 3rem;
+  background-color: var(--renk3);
+  margin-bottom: 3rem;
+  box-shadow: var(--shadow-dark);
+}
+.light {
+  padding: 3rem;
+  background-color: var(--renk5);
+  box-shadow: var(--shadow-light);
+  width: 50%;
+  margin: auto;
+}
